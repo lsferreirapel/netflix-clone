@@ -7,7 +7,7 @@ node_modules
 
 # testing
 /coverage
-react-app-env.d.ts
+**react-app-env.d.ts
 
 # production
 /build
