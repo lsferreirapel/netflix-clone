@@ -12,9 +12,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.get('/', (req, res) => {
-  return res.send('Hello World!');  
-});
+app.get('/', (req, res) => res.send('Hello World!'));
 
 app.listen(process.env.PORT, () => console.log(`🔥 server listening on port ${process.env.PORT}`));
-
