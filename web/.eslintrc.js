@@ -31,6 +31,7 @@ module.exports = {
   rules: {
     '@typescript-eslint/camelcase': 'off',
     'linebreak-style': 'off',
+    'react/no-unescaped-entities': 'off',
     'prettier/prettier': [
       'error',
       {
